@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springFile:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/springFile_Web_exploded</output-path>
+    <root id="archive" name="springFile_Web exploded.war">
+      <element id="javaee-facet-resources" facet="springFile/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springFile" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="springFile" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.asm-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.beans-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.context-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.core-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.expression-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.web.servlet-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="org.springframework.web-3.1.1.RELEASE.jar" module-name="springFile" />
+          <element id="library" level="module" name="ant.jar" module-name="springFile" />
+          <element id="library" level="module" name="commons-fileupload-1.2.2.jar" module-name="springFile" />
+          <element id="library" level="module" name="commons-io-1.4.jar" module-name="springFile" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
